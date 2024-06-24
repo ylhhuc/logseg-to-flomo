@@ -3,7 +3,7 @@ import re
 import requests
 
 def send_to_flomo(content):
-    url = 'https://flomoapp.com/iwh/NjEzNzc0/c436dc0981952df313cec0742acbb3de/'
+    url = '你的flomo api/'
     headers = {'Content-Type': 'application/json'}
     payload = {'content': content}
     response = requests.post(url, json=payload)
